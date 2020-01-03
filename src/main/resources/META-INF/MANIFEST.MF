@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Premain-Class: me.ooi.testagent.MonitorAgent
+Can-Redefine-Classes: true

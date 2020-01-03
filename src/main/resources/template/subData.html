@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>subData</title>
+	</head>
+	<body>
+		<table>
+			<thead>
+				<tr>
+					<td>methodId</td><td>takingTime</td><td>startTime</td><td>endTime</td>
+				</tr>
+			</thead>
+			<tbody>
+			<#list list as i>
+				<tr>
+					<td>${i.methodId}</td><td>${i.takingTime}</td><td>${i.startTime}</td><td>${i.endTime}</td>
+				</tr>
+			</#list>
+			</tbody>
+		</table>
+	</body>
+</html>
